@@ -89,6 +89,7 @@ body{
 .main{
     display: grid;
     gap: 1rem;
+    
 }
 
 .ratings{
@@ -110,6 +111,16 @@ body{
     height: 2.5rem;
     width: 2.5rem;
     justify-content: center;
+}
+
+.rating:hover{
+    background-color: var(--color-primary-500);
+    color: var(--clr-neutral-100);
+}
+
+.ratings-selected{
+    background-color: var(--clr-neutral-500);
+    color: white;
 }
 
 .button{
@@ -137,13 +148,49 @@ body{
     color: var(--clr-neutral-500);
 }
 
-.rating__screen{
-    display:none;
-}
+
 
 .star img{
     background-color: hsla(216, 12%, 25%, 1);
     padding: 0.8rem;
     border-radius: 50%;
+}
+
+.rating__screen{
+    display:grid;
+    gap:1rem;
+    display: none;
+}
+
+.illustration img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+:is(.rating__screen) p, h1{
+    text-align: center;
+}
+
+.rating__screen .title{
+    font-size: 1.5rem;
+    font-weight: var(--fw-secondary);
+}
+
+.rating__screen .text{
+    font-weight: var(--fw-primary);
+    color: var(--clr-neutral-500);
+    margin-bottom: 1rem;
+}
+
+.rating__screen .selected{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    background-color: hsla(216, 12%, 25%, 1);
+    width: fit-content;
+    margin: 0 auto;
+    color: var(--color-primary-500);
 }
 /* || MEDIA QUERIES || */
