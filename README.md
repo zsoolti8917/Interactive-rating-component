@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -32,16 +32,17 @@ Users should be able to:
 ### Screenshot
 
 Finished project on a 1440px screen
-![Finished project on 1440px](solutions/PC%20Solution.png)
+![Finished project on 1440px](solution/PC%20solution.png)
 
 Finished project on a 375px screen
 <br />
-![Finished project on 375px](solutions/Phone%20solution.png)
+![Finished project on 375px](solution/Phone%20solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site on netlify](http://127.0.0.1:5500/index.html)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/fa56b805-d6ae-4386-84cf-deebde54582b/deploy-status)](https://app.netlify.com/sites/glittery-maamoul-e430b1/deploys)
+
 
 ## My process
 
@@ -79,5 +80,5 @@ Some pages i wish i could find earlier:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/zsoltvarju)
+- Frontend Mentor - [@zsoltvarju](https://www.frontendmentor.io/profile/zsoltvarju)
 
